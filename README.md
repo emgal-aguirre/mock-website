@@ -15,3 +15,5 @@ Here is a link to the live website https://emgal-aguirre.github.io/mock-website/
 ![ ](Assets/screenshot-3.png)
 
 
+# Todo
+1. Improve the mobile responisive feature
