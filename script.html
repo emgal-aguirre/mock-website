@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/style.css">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
     <title>marketly</title>
@@ -15,7 +15,7 @@
 <body>
     <section id="header">
         <div class="container">
-            <img src="logo.png" alt="logo" class="logo">
+            <img src="Assets/logo.png" alt="logo" class="logo">
             <div class="header-text">
                 <h1>The purpose is to <br>
                     teach, bring learning to people</h1>
@@ -37,12 +37,12 @@
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
-    <img src="menu.png" alt="menu" id="menu-btn">
+    <img src="Assets/menu.png" alt="menu" id="menu-btn">
 
     <!-- about page  -->
     <section id="about">
         <div class="about-left-col">
-            <img src="about.png" alt="about image">
+            <img src="Assets/about.png" alt="about image">
         </div>
         <div class="about-right-col">
             <div class="about-text">
@@ -64,17 +64,17 @@
     <section id="features">
         <div class="feature-row">
             <div class="feature-col">
-                <img src="pic-1.png" alt="photo1">
+                <img src="Assets/pic-1.png" alt="photo1">
                 <h4>Learn Anywhere</h4>
                 <p>Switch between your computer, tablet or mobile device</p>
             </div>
             <div class="feature-col">
-                <img src="pic-2.png" alt="photo1">
+                <img src="Assets/pic-2.png" alt="photo1">
                 <h4>Expert Teachers</h4>
                 <p>Learn from industry experts who are passionate about teaching.</p>
             </div>
             <div class="feature-col">
-                <img src="pic-3.png" alt="photo1">
+                <img src="Assets/pic-3.png" alt="photo1">
                 <h4>Unlimited Access</h4>
                 <p>Choose what you'd like to learn from our extensive subscription library</p>
             </div>
@@ -83,36 +83,31 @@
             <button type="button" class="btn btn-outline-dark common-btn">Start Free Trial</button>
         </div>
     </section>
-
-    <!-- courses -->
+    <!-- 
     <section id="courses">
-        <div class="container course-row">
-            <div class="course-left-col">
-                <div class="course-text">
-                    <h1>Browse Our Top<br> courses</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum."</p>
-                    <button type="button" class="btn btn-outline-dark common-btn">View all Courses</button>
-
-                </div>
-            </div>
-            <div class="course-right-col">
-                <img src="course.png" alt="course icon">
+        <div class="course-left-col">
+            <div class="course-text">
+                <h1>Browse Courses</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum."</p>
             </div>
         </div>
-    </section>
+        <div class="about-right-col">
+            <img src="Assets/course.png" alt="course icon">
+
+        </div>
+    </section> -->
     <!-- offers -->
 
     <section id="offer">
         <div class="about-left-col">
-            <img src="offer.png" alt="about image">
+            <img src="Assets/offer.png" alt="about image">
         </div>
         <div class="about-right-col">
             <div class="about-text">
@@ -144,7 +139,7 @@
                 </form>
             </div>
             <div class="contact-right-col">
-                <img src="contact.png" alt="">
+                <img src="Assets/contact.png" alt="">
             </div>
         </div>
     </section>
@@ -184,7 +179,7 @@
                         <small>support@xyop.com</small>
                         <small>Copyright 2020</small>
                     </div>
-                    <div class="footer-logo">
+                    <div class="Assets/footer-logo">
                         <img src="logo.png" alt="">
                         <button type="button" class="btn btn-outline-dark common-btn">English</button>
 
@@ -195,23 +190,24 @@
             <!-- social icons -->
 
             <div class="social-icons">
-                <img src="facebook.png">
-                <img src="instagram.png">
-                <img src="twitter.png">
-                <img src="linkedin.png">
+                <img src="Assets/facebook.png">
+                <img src="Assets/instagram.png">
+                <img src="Assets/twitter.png">
+                <img src="Assets/linkedin.png">
             </div>
         </div>
     </section>
 
 
 </body>
+<!-- smooth scroll tranisition -->
 <script>
     var scroll = new SmoothScroll('a[href*="#"]', {
         speed: 1000,
         speedAsDuration: true,
     });
 </script>
-
+<!-- nav side bar functionality -->
 <script>
     var menuBtn = document.getElementById("menu-btn");
     var sideNav = document.getElementById("side-nav");
